@@ -5,7 +5,7 @@ sitemap: false
 permalink: /
 ---
 <div class="banner-frame" markdown="0">
-<img src="{{ site.url }}{{ site.baseurl }}/images/HC-345.jpg]" alt="Banner" loading="lazy">
+<img src="{{ site.url }}{{ site.baseurl }}/images/banner.jpg]" alt="Banner" loading="lazy">
 </div> 
 <h2 class="home-hero">{{ site.name }}</h2>
 <p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p>
