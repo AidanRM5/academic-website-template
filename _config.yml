@@ -1,30 +1,30 @@
 # ============================================================
 # STEP 1: Your Identity (required)
 # ============================================================
-name: "Richard Feynman"
-title: "Professor of Physics"
-institution: "California Institute of Technology"
-email: richard@university.edu
-photo: headshot.jpg  # place your photo in images/
+name: "Aidan Runagall-McNaull"
+title: "Research Fellow"
+institution: "Uehiro Oxford Institute, The University of Oxford"
+email: aidan.runagall-mcnaul@uehiro.ox.ac.uk
+photo: HC-345.jpg  # place your photo in images/
 
 # ============================================================
 # STEP 2: Your Links (optional -- delete any you don't use)
 # ============================================================
 links:
-  google_scholar: "https://scholar.google.com/citations?user=B7vSqZsAAAAJ"
-  github: "https://github.com/"
-  researchgate: "https://www.researchgate.net/"
+  google_scholar: "https://scholar.google.com.au/citations?user=AuLIKz4AAAAJ&hl=en"
+  github:
+  researchgate: 
   orcid: ""
-  twitter: ""
+  bluesky: "https://bsky.app/profile/aidanrm.bsky.social"
   linkedin: ""
-  cv: ""  # e.g., "papers/cv.pdf" — leave blank to hide the CV icon
+  cv: "papers/Academic_CVshortest.pdf"  # e.g., "papers/cv.pdf" — leave blank to hide the CV icon
 
 # ============================================================
 # STEP 3: Site Settings
 # ============================================================
 accent_color: "#1a7a6d"      # theme color for links and buttons
 dark_mode: true              # show dark mode toggle in navbar
-description: "Academic webpage of Dr. Richard Feynman"
+description: "Academic webpage of Dr. Aidan Runagall-McNaull"
 baseurl: ""
 url: ""
 
@@ -36,14 +36,14 @@ analytics:
 # STEP 4: Choose Your Pages (comment out any you don't need)
 # ============================================================
 nav_pages:
-  - name: about
-  - name: publications
-  - name: talks
   - name: research
-  - name: software
-  - name: team
-  - name: teaching
-  - name: blogs
+  - name: publications
+  # - name: talks
+  #- name: about
+  #- name: software
+  #- name: team
+  #- name: teaching
+ # - name: blogs
 
 # ============================================================
 # Advanced Settings (you probably don't need to change these)
@@ -76,8 +76,8 @@ kramdown:
 plugins: ["jekyll/scholar", "jekyll-sitemap"]
 
 scholar:
-  last_name: Doe
-  first_name: [John]
+  last_name: Runagall-McNaull
+  first_name: [Aidan]
   style: citesty
   locale: en
   source: /assets/
