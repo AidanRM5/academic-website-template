@@ -5,9 +5,6 @@ sitemap: false
 permalink: /
 ---
 
-<div class="banner-frame" markdown="0">
-<img src="{{ site.url }}{{ site.baseurl }}/images/banner.jpg" alt="Banner" loading="lazy">
-</div>
 
 ### About me
 
