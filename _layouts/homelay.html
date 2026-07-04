@@ -1,11 +1,14 @@
 ---
 layout: default
 ---
+<div class="home-hero-banner">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/banner.jpg" alt="Banner" loading="lazy">
+</div>
 <div class="home-grid">
   <div class="home-content">
     {{ content }}
   </div>
-  <div>
+  <div class="home-sidebar-overlap">
     {% include sidebar.html %}
   </div>
 </div>
